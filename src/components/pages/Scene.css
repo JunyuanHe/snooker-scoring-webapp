@@ -26,6 +26,7 @@
 
 .Player-general-container {
     padding: 0 7.5%;
+    text-align: center;
 }
 
 .Player-general {
@@ -65,6 +66,8 @@
 
     text-align: center;
     color: aqua;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
 }
 
 .Player-red {
@@ -113,4 +116,5 @@ button {
     margin: 0 1px;
     padding-top: 2px;
     padding-bottom: 2px;
+    font-size: large;
 }

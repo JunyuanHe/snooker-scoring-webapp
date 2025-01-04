@@ -59,7 +59,7 @@ const Player = () => {
             <div className="Player-score-container">
                 <div className="Player-score">
                     {/* <h3>Score</h3> */}
-                    <h1>Score: {totalScore}</h1>
+                    <h1>{totalScore}</h1>
                 </div>
             </div>
             <div className="Player-score-container">
@@ -69,7 +69,7 @@ const Player = () => {
                 </div>
             </div>
             <div className="Player-ball-container">
-                <div className="Player-all-balls">
+                <div className="Player-all-balls grid-red">
                     <div className="Player-red Player-ball effect3" onClick={() => { addToBreak(1); }}>
                         Red
                     </div>

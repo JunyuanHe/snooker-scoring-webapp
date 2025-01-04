@@ -1,5 +1,5 @@
 .Player-score-container {
-    padding: 0 15%;
+    padding: 0 7.5%;
 }
 
 .Player-score {
@@ -9,7 +9,7 @@
 }
 
 .Player-ball-container {
-    padding: 0 15%;
+    padding: 0 7.5%;
 }
 
 .Player-all-balls {
@@ -26,11 +26,11 @@
 .grid {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(33%, 2fr));
-  }
+    grid-template-columns: repeat(auto-fill, minmax(min(5rem, 50%), 1fr));
+}
 
 .Player-general-container {
-    padding: 0 15%;
+    padding: 0 7.5%;
 }
 
 .Player-general {
@@ -47,8 +47,8 @@
     height: auto;
     display: block;
     /* div height to be the same as width*/
-    padding-top: 35%;
-    padding-bottom: 35%;
+    padding-top: 40%;
+    padding-bottom: 40%;
 
     /* make it a circle */
     /* border-radius: 50%; */
@@ -74,14 +74,14 @@
 
 .Player-red {
     /* make it responsive */
-    max-width: 60%;
+    max-width: 100%;
     min-width: 50px;
-    width: 60%;
+    width: 40%;
     height: auto;
     display: block;
     /* div height to be the same as width*/
-    padding-top: 25%;
-    padding-bottom: 25%;
+    padding-top: 20%;
+    padding-bottom: 20%;
     background-image: url("../../public/red.png");
 }
 
@@ -107,4 +107,9 @@
 
 .Player-black {
     background-image: url("../../public/black.png");
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: bold;
 }
